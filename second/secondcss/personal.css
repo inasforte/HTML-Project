@@ -1,0 +1,269 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+
+.malikhead {
+    padding: 8px;
+    position: relative;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 7px 20px 8px;
+    background-color: #ececec57;
+}
+
+.malikhead .container .mimg {
+    width: 250px;
+    height: 320px;
+    border: 10px solid transparent;
+    margin-left: 40px;
+    margin-top: 40px;
+    transition: 0.2s;
+    position: relative;
+}
+
+@media(max-width:767px) {
+    .malikhead .container .mimg {
+        margin-left: 34px;
+        margin-top: 19px;
+    }
+}
+
+@media (max-width: 991px) {
+    .malikhead .container .mimg {
+        margin-left: 34px;
+        margin-top: 19px;
+    }
+}
+
+.malikhead .container .mimg::before {
+    content: " ";
+    position: absolute;
+    background-color: rgb(31 29 29 / 27%);
+    height: 2px;
+    left: -7px;
+    bottom: -43px;
+    opacity: 0.7;
+    width: 0;
+    transition: 0.2s;
+}
+
+.malikhead .container .mimg:hover::before {
+    opacity: 1;
+    width: 258px;
+}
+
+.malikhead .container .mimg img {
+    width: 243px;
+    height: 313px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px 3px#1e1e374f;
+}
+
+.malikhead .container .mimg:hover img {
+    transform: scale(1.1);
+}
+
+.malikhead .container .mtext {
+    position: absolute;
+    left: 400px;
+    top: 90px;
+}
+
+@media(max-width:767px) {
+    .malikhead .container .mtext {
+        top: 402px;
+        left: 36px;
+    }
+}
+
+@media (max-width: 991px) {
+    .malikhead .container .mtext {
+        top: 402px;
+        left: 36px;
+    }
+}
+
+.malikhead .container .mtext h1 {
+    font-size: 36px;
+    margin: 20px 18px 15px;
+    color: rgb(31, 29, 29);
+}
+
+@media(max-width:767px) {
+    .malikhead .container .mtext h1 {
+        font-size: 18px;
+        margin: 10px 55px 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .malikhead .container .mtext h1 {
+        font-size: 18px;
+        margin: 10px 55px 10px;
+    }
+}
+
+.malikhead .container .mtext h1 span {
+    font-size: 7px;
+
+    color: black;
+}
+
+.malikhead .container .mtext h3 {
+    font-size: 18px;
+    margin: 0px 22px 0px;
+    color: #787af7;
+    font-weight: bold;
+}
+
+@media(max-width:767px) {
+    .malikhead .container .mtext h3 {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .malikhead .container .mtext h3 {
+        display: none;
+    }
+}
+
+.malikhead .container .mtext p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.6px;
+    padding-top: 41px;
+    margin-left: 25px;
+}
+
+@media(max-width:767px) {
+    .malikhead .container .mtext p {
+        font-size: 15px;
+        line-height: 20.6px;
+        padding-top: 2px;
+        margin-left: -9px;
+    }
+}
+
+@media (max-width: 991px) {
+    .malikhead .container .mtext p {
+        font-size: 15px;
+        line-height: 20.6px;
+        padding-top: 2px;
+        margin-left: -9px;
+    }
+}
+
+.malikhead .container .layout {
+    margin: 82px 10px 100px;
+}
+
+@media(max-width:767px) {
+    .malikhead .container .layout {
+        margin: 194px 1px 100px
+    }
+}
+
+@media (max-width: 991px) {
+    .malikhead .container .layout {
+        margin: 194px 1px 100px
+    }
+}
+
+ul {
+    list-style-type: disc;
+    font-size: 17px;
+    line-height: 29px;
+
+}
+
+@media(max-width:767px) {
+    ul {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    ul {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+.malikhead .container .layout .secul {
+    list-style-type: circle;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+@media(max-width:767px) {
+    .malikhead .container .layout .secul {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .malikhead .container .layout .secul {
+        font-size: 13px;
+
+    }
+}
+
+@media(max-width:767px) {
+    .malikhead .container .layou .listpoint {
+        line-height: 26px;
+        margin-top: 29px;
+    }
+}
+
+@media (max-width: 991px) {
+    .malikhead .container .layou .listpoint {
+        line-height: 26px;
+        margin-top: 29px;
+
+    }
+}
+
+.malikhead .container .message {
+
+    padding: 6px;
+    margin: 0;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.malikhead .container .message form input[type="textarea"] {
+    border-radius: 7px;
+    border: 1px solid rgb(46, 45, 45);
+    padding: 20px;
+    margin-bottom: 7px;
+}
+
+button {
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 3px 12px;
+    font-weight: bold;
+    color: #5960f7a3;
+    margin-left: 0px;
+}
